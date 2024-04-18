@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/c0030b07-ef2e-4aac-8e16-e85663be08c2/VE-es-20240415-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 85vh;
+  min-height: 320px;
+}
+
+.fondo {
+  height: 85vh;
+  min-height: 320px;
+  width: 100%;
+  position: absolute;
+  background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 100;
+}
+
+.contenido {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  gap: 15px;
+  z-index: 200;
+}
+
+.columna{
+  display: flex;
+  flex-direction: column;
+}
+
+.fila {
+  display: flex;
+}
+
+svg {
+  width: 105px;
+  fill: red;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 62px;
+  z-index: 200;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav div select{
+  background-color: transparent;
+  color: white;
+  padding: 2px 6px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.subtitulo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.parrafo {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.585);
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.email {
+  gap: 8px
+}
+
+.email button {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 14px 32px;
+}
